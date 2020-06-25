@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Browser launched successfully ]]>
+    </line>
+    <line>
+      <![CDATA[Application loaded ]]>
+    </line>
+    <line>
+      <![CDATA[clicked onAccount Button]]>
+    </line>
+    <line>
+      <![CDATA[entered textanuj.lpu1@gmail.comin theUsername TextBox]]>
+    </line>
+    <line>
+      <![CDATA[entered textTest@123in thepassword TextBox]]>
+    </line>
+    <line>
+      <![CDATA[clicked onLogin Btn]]>
+    </line>
+    <line>
+      <![CDATA[clicked onbooks click]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2020-06-25T14:39:44Z" name="Default suite" finished-at="2020-06-25T14:40:54Z" duration-ms="69718">
+    <groups>
+    </groups>
+    <test started-at="2020-06-25T14:39:44Z" name="Default test" finished-at="2020-06-25T14:40:54Z" duration-ms="69718">
+      <class name="com.tyss.projectframework.scripts.LoginTest">
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.tyss.projectframework.scripts.LoginTest@683dbc2c]" started-at="2020-06-25T20:09:44Z" name="setUp" finished-at="2020-06-25T20:10:16Z" duration-ms="32142" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@746cd757]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Browser launched successfully ]]>
+            </line>
+            <line>
+              <![CDATA[Application loaded ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="tc_01()[pri:0, instance:com.tyss.projectframework.scripts.LoginTest@683dbc2c]" started-at="2020-06-25T20:10:16Z" name="tc_01" finished-at="2020-06-25T20:10:54Z" duration-ms="37552" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[clicked onAccount Button]]>
+            </line>
+            <line>
+              <![CDATA[entered textanuj.lpu1@gmail.comin theUsername TextBox]]>
+            </line>
+            <line>
+              <![CDATA[entered textTest@123in thepassword TextBox]]>
+            </line>
+            <line>
+              <![CDATA[clicked onLogin Btn]]>
+            </line>
+            <line>
+              <![CDATA[clicked onbooks click]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc_01 -->
+      </class> <!-- com.tyss.projectframework.scripts.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

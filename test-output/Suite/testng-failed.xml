@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.tyss.projectframework.listeners.MyListners"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.tyss.projectframework.scripts.LoginTest">
+        <methods>
+          <include name="tc_01"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.tyss.projectframework.scripts.LoginTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
